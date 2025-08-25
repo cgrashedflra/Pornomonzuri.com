@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0%;
+}
+.logo {
+    height: 30px;
+    width: 30px;
+}
+#hero {
+    background-image: url('./web images/sapling_BG.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Optional border */
+}
+.blurred-box {
+    position: relative;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.153); /* Semi-transparent white */
+    backdrop-filter: blur(50px); /* Apply blur effect */
+    border-radius: 10px; /* Optional: for rounded corners */
+    /*color: #000;  Ensure text color is readable */
+    text-align: center; /* Optional: center text */
+  }
+  img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
